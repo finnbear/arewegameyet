@@ -25,7 +25,7 @@ name = "Apocalypse Post"
 description = "a procedurally-generated, turn-based tactical shooter set in a post-apocalyptic future, where you carry mail between survivor camps in your trusty delivery van, all the while fending off attacks from bandits and zombies."
 categories = ["strategy", "rpg"]
 homepage_url = "//gridbugs.itch.io/apocalypse-post"
-repository_url = "//github.com/Ratysz/ludumdare42"
+repository_url = "//github.com/gridbugs/apocalypse-post"
 image = "/assets/img/apocalypse-post.gif"
 
 [[items]]
@@ -37,18 +37,19 @@ repository_url = "//github.com/outkine/ascension-rust"
 image = "/assets/img/ascension2.png"
 
 [[items]]
-name = "Astra Terra"
-description = "A real-time base-building strategy game with procedurally generated worlds and an emphasis on simulation and story"
-categories = ["strategy", "simulation"]
-homepage_url = "//christopherdumas.org/astraterra"
-image = "/assets/img/AstraTerra-icon.jpg"
-
-[[items]]
 name = "Bitgun"
 description = "An action roguelite zombie shooter with difficult and satisfying combat you can learn and master. Guns break quickly and you lose all your gear when you die."
 categories = ["action", "released"]
 image = "/assets/img/bitgun.gif"
 homepage_url = "https://store.steampowered.com/app/1673940/BITGUN"
+
+[[items]]
+name = "Boat Journey"
+description = "Boat Journey is a turn-based game where you drive a boat through a procedurally-generated landscape on a voyage along a river destined for the ocean. Accept passengers to have them help you on your journey. Fight monsters, collect junk, trade the junk for fuel, use the fuel to travel to the ocean."
+categories = ["rpg"]
+homepage_url = "//gridbugs.itch.io/boat-journey"
+repository_url = "//github.com/gridbugs/boat-journey"
+image = "/assets/img/boat-journey.png"
 
 [[items]]
 name = "Call of Ferris"
@@ -122,6 +123,15 @@ homepage_url = "//cratebeforeattack.com"
 image = "/assets/img/crate-before-attack.gif"
 
 [[items]]
+name = "Digital Extinction"
+description = "A 3D real-time strategy game."
+categories = ["strategy"]
+image = "/assets/img/digital-extinction.png"
+crate_url = "https://crates.io/crates/de_game"
+repository_url = "https://github.com/DigitalExtinction/Game"
+homepage_url = "https://de-game.org/"
+
+[[items]]
 name = "dose response"
 description = "Dose Response is a roguelike game where you play an addict. Avoid the dangers threatening your mind and body while desperately looking for the next fix."
 categories = ["rpg"]
@@ -181,13 +191,6 @@ repository_url = "//github.com/tyfkda/galangua"
 image = "/assets/img/galangua.png"
 
 [[items]]
-name = "Garden"
-description = "A game centered around really detailed plant growth simulation"
-categories = ["simulation"]
-homepage_url = "//www.reddit.com/r/rust/comments/795dg4/i_spent_the_last_year_writing_a_plant/"
-image = "/assets/img/garden.jpg"
-
-[[items]]
 name = "Helix Repair"
 description = "In Helix Repair, your task is to repair a broken DNA sequence by correcting nucleobases. You have 20 seconds!"
 categories = ["puzzle", "released"]
@@ -202,11 +205,25 @@ repository_url = "//github.com/PistonDevelopers/hematite"
 image = "/assets/img/hematite.png"
 
 [[items]]
+name = "Hydrofoil Generation"
+description = "A realistic sailing/foiling inshore simulator that puts you in the driving seat of modern competitive sailing"
+categories = ["simulation", "racing", "released"]
+homepage_url = "//store.steampowered.com/app/1448820/Hydrofoil_Generation"
+image = "/assets/img/hydrofoilg.jpg"
+
+[[items]]
 name = "HyperZen Training"
 description = "Experimental minimalist game with a special graphical mecanic"
 categories = ["fps", "released"]
 homepage_url = "//store.steampowered.com/app/884160/HyperZen_Training/"
 image = "/assets/img/hyperzentraining.png"
+
+[[items]]
+name = "Idu"
+description = "A strategic sim about growing self-aware plants"
+categories = ["simulation"]
+homepage_url = "//epcc.itch.io/idu"
+image = "/assets/img/idu.jpg"
 
 [[items]]
 name = "It's Not Cool"
@@ -249,7 +266,7 @@ name = "Meters Below the Ground"
 description = "A short tactical dungeon-crawler about escaping from an insectoid-infested facility"
 categories = ["rpg"]
 homepage_url = "//gridbugs.itch.io/meters-below-the-ground"
-repository_url = "//github.com/stevebob/meters-below-the-ground"
+repository_url = "//github.com/gridbugs/meters-below-the-ground"
 image = "/assets/img/meters-below-ground.png"
 
 [[items]]
@@ -280,7 +297,7 @@ name = "Orbital Decay"
 description = "A turn-based tactical roguelike with a focus on ranged combat. Deal enough damage to enemies to get through their armour without breaching the hull of the station, or risk being pulled into the void."
 categories = ["rpg"]
 homepage_url = "//gridbugs.itch.io/orbital-decay"
-repository_url = "//github.com/stevebob/orbital-decay"
+repository_url = "//github.com/gridbugs/orbital-decay"
 image = "/assets/img/orbital-decay.png"
 
 [[items]]
@@ -424,7 +441,7 @@ name = "slime99"
 description = "Roguelike where combat outcomes are pre-determined and known by the player. Set in a neon sewer!"
 categories = ["rpg"]
 homepage_url = "//gridbugs.itch.io/slime99"
-repository_url = "//github.com/stevebob/slime99"
+repository_url = "//github.com/gridbugs/slime99"
 image = "/assets/img/slime99.png"
 
 [[items]]
@@ -477,6 +494,14 @@ repository_url = "//github.com/fabiojmendes/super-jeff"
 image = "/assets/img/super-jeff.gif"
 
 [[items]]
+name = "Tataku"
+description = "An osu! clone written in rust!"
+categories = ["action"]
+homepage_url = "//tataku.ca"
+repository_url = "//gitlab.ayyeve.xyz/tataku/tataku-client"
+image = "/assets/img/tataku.gif"
+
+[[items]]
 name = "Tetris Bane"
 description = "A Tetris clone with a deliberately frustrating set of blocks. There's also a classic mode for the purists, an ultra hard metal mode and even a chill mode."
 categories = ["puzzle"]
@@ -497,6 +522,20 @@ description = "They live, work, and die on a time machine they didn't invent and
 categories = ["simulation", "strategy"]
 homepage_url = "//anachronidia.itch.io/time-spiders"
 image = "/assets/img/time-spiders.png"
+
+[[items]]
+name = "Tiny Glade"
+description = "A small relaxing game about doodling castles. Explore gridless building chemistry, and watch the game carefully assemble every brick, pebble and plank."
+categories = ["simulation", "other"]
+homepage_url = "//store.steampowered.com/app/2198150/Tiny_Glade"
+image = "/assets/img/tinyglade.jpg"
+
+[[items]]
+name = "Triverse"
+description = "A pausable RTS with units built from triangle parts."
+categories = ["strategy"]
+homepage_url = "//cragwind.itch.io/triverse"
+image = "/assets/img/triverse.gif"
 
 [[items]]
 name = "Twenty Asteroids"

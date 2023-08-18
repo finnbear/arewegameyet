@@ -9,6 +9,13 @@ source = "crates"
 categories = ["audio"]
 
 [[items]]
+name = "AmbientRun/Ambient"
+source = "github"
+categories = ["engines"]
+repository_url = "https://github.com/AmbientRun/Ambient"
+homepage_url = "https://www.ambient.run"
+
+[[items]]
 name = "ambisonic"
 source = "crates"
 categories = ["audio"]
@@ -22,6 +29,11 @@ categories = ["engines"]
 name = "amethyst_network"
 source = "crates"
 categories = ["networking"]
+
+[[items]]
+name = "apecs"
+source = "crates"
+categories = ["ecs"]
 
 [[items]]
 name = "arcana-engine/arcana"
@@ -103,6 +115,11 @@ categories = ["engines", "2drendering", "3drendering"]
 name = "bmfont"
 source = "crates"
 categories = ["textrendering"]
+
+[[items]]
+name = "brood"
+source = "crates"
+categories = ["ecs"]
 
 [[items]]
 name = "building-blocks"
@@ -283,7 +300,6 @@ categories = ["ui"]
 name = "Ellie Language"
 description = "A type-safe scripting language"
 categories = ["scripting"]
-image = "/assets/img/ellie_language.png"
 repository_url = "https://github.com/behemehal/Ellie-Language"
 homepage_url = "https://www.ellie-lang.org/"
 gitter_url = "https://gitter.im/ellie-lang/community"
@@ -368,6 +384,11 @@ categories = ["textrendering"]
 name = "froggy"
 source = "crates"
 categories = ["ecs"]
+
+[[items]]
+name = "frug"
+source = "crates"
+categories = ["2drendering"]
 
 [[items]]
 name = "fungui"
@@ -639,6 +660,11 @@ source = "crates"
 categories = ["audio"]
 
 [[items]]
+name = "libfmod"
+source = "crates"
+categories = ["audio"]
+
+[[items]]
 name = "libovr"
 source = "crates"
 categories = ["vr"]
@@ -680,6 +706,11 @@ name = "markusmoenig/Eldiron"
 source = "github"
 categories = ["engines"]
 homepage_url = "https://eldiron.com/"
+
+[[items]]
+name = "matchbox_socket"
+source = "crates"
+categories = ["networking"]
 
 [[items]]
 name = "meshopt"
@@ -1063,6 +1094,11 @@ source = "crates"
 categories = ["networking"]
 
 [[items]]
+name = "rhachis"
+source = "crates"
+categories = ["engines"]
+
+[[items]]
 name = "rhai"
 source = "crates"
 categories = ["scripting"]
@@ -1184,6 +1220,11 @@ source = "crates"
 categories = ["audio"]
 
 [[items]]
+name = "shader-reflect"
+source = "crates"
+categories = ["shader"]
+
+[[items]]
 name = "shaderc"
 source = "crates"
 categories = ["shader"]
@@ -1198,12 +1239,6 @@ name = "shipyard"
 source = "crates"
 categories = ["ecs"]
 gitter_url = "https://gitter.im/leudz-shipyard/community"
-
-[[items]]
-name = "Siebencorgie/jakar-engine"
-source = "github"
-categories = ["engines"]
-homepage_url = "https://gitlab.com/Siebencorgie/jakar-engine"
 
 [[items]]
 name = "sierra"
@@ -1224,6 +1259,11 @@ categories = ["windowing", "ui", "tools"]
 name = "soloud"
 source = "crates"
 categories = ["audio"]
+
+[[items]]
+name = "spaik"
+source = "crates"
+categories = ["scripting"]
 
 [[items]]
 name = "sparsey"
@@ -1260,6 +1300,14 @@ categories = ["tools"]
 name = "steering"
 source = "crates"
 categories = ["ai"]
+
+[[items]]
+name = "stereokit"
+categories = ["engines", "vr"]
+description = "Bindings to StereoKit: an easy-to-use Mixed Realty engine, designed for creating VR, AR, and XR experiences"
+crate_url = "https://crates.io/crates/stereokit"
+repository_url = "https://github.com/MalekiRe/stereokit-rs"
+homepage_url = "https://stereokit.net/"
 
 [[items]]
 name = "stick"
@@ -1394,6 +1442,11 @@ categories = ["3drendering"]
 
 [[items]]
 name = "vorbis"
+source = "crates"
+categories = ["audio"]
+
+[[items]]
+name = "vorbis_rs"
 source = "crates"
 categories = ["audio"]
 
